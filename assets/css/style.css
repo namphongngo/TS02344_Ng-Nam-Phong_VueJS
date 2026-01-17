@@ -1,0 +1,30 @@
+/* BÀI 1: BẢNG THÀNH PHẦN DINH DƯỠNG */
+
+.nutrition-title {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.table-nutrition {
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.table-nutrition thead th {
+    background-color: #ffc107; /* vàng giống ảnh */
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.table-nutrition tbody td {
+    vertical-align: middle;
+}
+
+.table-nutrition tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}

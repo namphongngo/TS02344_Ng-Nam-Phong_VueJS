@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Form Bootstrap</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row">
+
+        <!-- FORM ĐĂNG KÝ -->
+        <div class="col-md-6">
+            <h5>Form Đăng Ký Thông Tin</h5>
+            <form class="border rounded p-3">
+
+                <label class="form-label">Họ và Tên</label>
+                <input class="form-control mb-2" placeholder="Nhập họ và tên">
+
+                <label class="form-label">Email</label>
+                <input class="form-control mb-2" placeholder="Nhập email">
+
+                <label class="form-label">Số Điện Thoại</label>
+                <input class="form-control mb-2" placeholder="Nhập số điện thoại">
+
+                <label class="form-label">Mật Khẩu</label>
+                <input type="password" class="form-control mb-2" placeholder="Nhập mật khẩu">
+
+                <label class="form-label">Xác Nhận Mật Khẩu</label>
+                <input type="password" class="form-control mb-2" placeholder="Xác nhận mật khẩu">
+
+                <label class="form-label">Giới Tính</label><br>
+                <input type="radio" name="gt"> Nam
+                <input type="radio" name="gt" class="ms-3"> Nữ
+                <br><br>
+
+                <label class="form-label">Ngôn Ngữ</label>
+                <select class="form-select mb-2">
+                    <option>Tiếng Việt</option>
+                    <option>English</option>
+                </select>
+
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox">
+                    <label class="form-check-label">
+                        Tôi đồng ý với các điều khoản và điều kiện
+                    </label>
+                </div>
+
+                <button class="btn btn-primary">Đăng Ký</button>
+            </form>
+        </div>
+
+        <!-- FORM ĐĂNG NHẬP -->
+        <div class="col-md-6">
+            <h5>Form Đăng nhập</h5>
+            <form class="border rounded p-3">
+
+                <label class="form-label">Email</label>
+                <input class="form-control mb-2" placeholder="Nhập email">
+
+                <label class="form-label">Mật Khẩu</label>
+                <input type="password" class="form-control mb-2" placeholder="Nhập mật khẩu">
+
+                <button class="btn btn-primary">Đăng Nhập</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
