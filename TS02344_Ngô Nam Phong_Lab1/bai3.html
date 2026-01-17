@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3 + Bài 4 - LAB 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- ===== NAVBAR (Tái sử dụng bài 2) ===== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo-energy-pilates.png" width="140">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link"><i class="bi bi-file-text"></i> Bài viết</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="bi bi-camera-video"></i> Video</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><i class="bi bi-info-circle"></i> Giới thiệu</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <i class="bi bi-person"></i> Tài khoản
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item">Đăng nhập</a></li>
+                        <li><a class="dropdown-item">Quên mật khẩu</a></li>
+                        <li><a class="dropdown-item">Đăng ký</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link">Tiếng Việt</a></li>
+                <li class="nav-item"><a class="nav-link">English</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== MAIN CONTENT ===== -->
+<div class="container mt-4">
+    <div class="row">
+
+        <!-- ===== ASIDE ===== -->
+        <aside class="col-md-4">
+            <div class="card mb-3">
+                <img src="images/avatar.png" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Về tôi</h5>
+                    <p class="card-text">
+                        TS. Trần Hoàng – Tổ chức tư vấn sức khỏe quốc tế.
+                        <br>
+                        Châm ngôn: Ta không được chọn nơi mình sinh ra,
+                        nhưng ta được chọn cách mình sẽ sống.
+                    </p>
+                </div>
+            </div>
+
+            <h5>Chuyên mục</h5>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between">
+                    Chế độ tập <span class="badge bg-primary">12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Dinh dưỡng <span class="badge bg-primary">15</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    Cẩm nang cuộc sống <span class="badge bg-primary">99</span>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- ===== SECTION BLOG ===== -->
+        <section class="col-md-8">
+            <h3>Blog của tôi</h3>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="images/tap-pilates1.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Pilates cho cột sống</h5>
+                            <p class="card-text">
+                                Phương pháp tập Pilates giúp phục hồi
+                                và tăng cường sức khỏe cột sống.
+                            </p>
+                            <a class="btn btn-info">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <img src="images/orange_300x300.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dinh dưỡng mỗi ngày</h5>
+                            <p class="card-text">
+                                Bổ sung thực phẩm lành mạnh giúp cơ thể
+                                khỏe mạnh và dẻo dai.
+                            </p>
+                            <a class="btn btn-info">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-dark text-white text-center p-3 mt-4">
+    © Copyright by FPT Polytechnic
+</footer>
+
+</body>
+</html>
